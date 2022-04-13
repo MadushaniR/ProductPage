@@ -1,0 +1,289 @@
+/*External Stylesheet*/
+
+/*Importing Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body,html 
+{
+	padding-top:65px;
+	background-position: top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;	
+	/*background-position:50% 50%;*/
+}
+
+p{
+	margin: 0;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 100%; 
+	font-family: 'Raleway', sans-serif;
+	border-style: None;
+    border-color: #fbfbfb;	
+} 
+
+#navbar{
+	
+	top:0;
+	left:0;
+	width:100%;
+	position:fixed;
+	z-index: 100;
+}
+
+#header
+{
+	background: #F8F8F8;
+	padding: 10px 20px;
+}	
+
+#header h1
+{
+	margin: 0;
+	background:#3d5c5c;
+	color:	#ffffff;
+	font-family: Fjalla One;
+	font-size: 50;
+	text-align: left;
+	width: 170;
+	height:50;
+	padding: 10px;
+	margin-left:130px;
+}
+
+#header h2
+{
+	margin: 0;
+	color: #484f4f;
+	font-size: 15;
+	text-align: left;
+	padding-left:130px;
+}
+
+#header h3
+{
+	clear:both;
+	margin: 0;
+	color:#1b527a;
+	font-size: 14;
+	text-align: right;
+}
+
+#navigation 
+{
+	float: left;
+	width: 100%;
+	background-color:rgb(221, 221, 221);
+}
+
+#navigation ul
+{
+	
+	display:flex;
+	justify-content:space-between; 
+	flex-direction:row;
+	margin: 10px;
+	padding-right:130px;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	/*display: block;*/
+	/*float: left;*/
+	padding: 10px 25px;
+	color: #4700D8;
+	text-decoration: none;
+
+}
+
+#navigation li a:hover 
+{ 
+	background: #24006C; 
+	color: #fff
+}
+
+#indextable p{
+	padding-left: 15px;
+	padding-top: 7px;
+}
+
+#indextable{
+	margin-left: 2rem;
+}
+
+.prodDescription{
+	width:35rem;
+}
+
+#indextable img{
+	transition: 0.2s ease-in-out;
+	border-radius: 15px;
+}
+
+#indextable img:hover{
+	transform:scale(1.1);
+}
+
+#indextable h5:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#indextable td{
+	padding-bottom: 3rem;
+}
+
+#content
+{
+	margin:0;
+	width:80%; min-height:100%;
+	clear: left;
+	padding: 20px;
+	padding-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	background: #F8F8F8; 
+}
+#content1
+{
+	margin:0;
+	width:80%; min-height:100%;
+	clear: left;
+	padding: 20px;
+	padding-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	background: #4700D8; 
+}
+
+#content h4
+{
+	color:#000;
+	font-size: 32;
+	margin: 2rem 0 2rem 2rem;
+	font-family: 'Major Mono Display', monospace;
+}
+
+#content h5
+{
+	color:#194a8d;
+	font-size: 20;
+	margin: 0 0 .5em;
+	padding-left: 15px;
+}
+
+
+table, th, td
+{
+	border-collapse:collapse;
+	
+	/* border:1px solid #000; */
+}
+
+
+th
+{
+	padding:10px;
+}
+
+td
+{
+	padding:22px;
+	text-align: center;
+	/* text-align:left;
+	color:#000000; */
+} 
+
+
+#baskettable{
+	/* margin-left: 2rem; */
+	border-collapse: collapse;
+	border-radius: 30px;
+	overflow: hidden;
+	
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	
+  }
+#baskettable1{
+	/* margin-left: 2rem; */
+	border-collapse: collapse;
+	border-radius: 30px;
+	overflow: hidden;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	
+}
+#baskettable1 th, #baskettable1 td{
+	text-align:left;
+	padding:1em;
+	background:#fff;
+	border: 4px solid #fff;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+}
+#baskettable2{
+	/* margin-left: 2rem; */
+	border-collapse: collapse;
+	border-radius: 30px;
+	overflow: hidden;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+#baskettable2 th, #baskettable2 td{
+	text-align:center;
+	padding:1em;
+	background:#fff;
+	border: 4px solid #fff;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+	
+}
+#loginStyle{
+	color: #4700D8;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#baskettable th, #baskettable td{
+	text-align:left;
+	padding:1em;
+	background:#fff;
+	border: 5px solid #fff;
+}
+
+button, #submitbtn, .btn{
+	position: center;
+	background-color: #4700D8;
+	color: #fff;
+	padding:8px 20px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:12px;
+	
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	cursor:pointer;
+	border: 2px solid #4700D8;
+	border-radius:10px;
+}
+
+
+
